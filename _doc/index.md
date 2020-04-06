@@ -2,34 +2,33 @@
 layout: home
 title: Home
 tagline: |
-  Free Bootstrap theme for your project documentation
-  
-  Designed with *&nbsp;*{: .fa .fa-heart} for developers
-  
-  Ready to use in *&nbsp;*{: .fa .fa-github} Github Pages
+  The best library to support you beat others in Game of Drone.
+
+  Actully Useful.
+  <!-- Free Bootstrap theme for your project documentation -->
+  <!-- Designed with *&nbsp;*{: .fa .fa-heart} for developers -->
+  <!-- Ready to use in *&nbsp;*{: .fa .fa-github} Github Pages -->
 heading: Getting started is easy!
 navigation:
   - /start
   - /components
-  - /charts
   - /faqs
+---
+<!--   - /charts
   - /showcase
   - /credits
   - /news
   - /community
-  - /legal
----
+  - /legal -->
 
-Welcome to prettyDocs.
-This landing page is an example of how you can use a card view to present segments of your documentation.
-You can customise the icon fonts based on your needs.
+Welcome! Download the library and view our demo above.
 
 <div class="cta-container">
 
-[*&nbsp;*{: .fa .fa-cloud-download} Download Now][PRETTYDOCS]{: .btn .btn-primary .btn-cta}
-[*&nbsp;*{: .fa .fa-github} Use in GitHub Pages][GHPAGES]{: .btn .btn-green .btn-primary .btn-cta}
+[*&nbsp;*{: .fa .fa-cloud-download} Download Now][ARCHIEVE]{: .btn .btn-green .btn-primary .btn-cta}
+[*&nbsp;*{: .fa .fa-github} View on GitHub][GITHUB]{: .btn .btn-purple .btn-primary .btn-cta}
 
 </div>
 
-[PRETTYDOCS]: https://themes.3rdwavemedia.com/website-templates/prettydocs-free-bootstrap-theme-developers-and-startups/
-[GHPAGES]: https://github.com/LeakyAbstractions/pretty-docs/tree/gh-pages
+[ARCHIEVE]: https://github.com/AlaRduTP/GOD/archive/master.zip
+[GITHUB]: https://github.com/AlaRduTP/GOD

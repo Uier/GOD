@@ -4,13 +4,13 @@ excerpt: Layout for FAQ page. Lorem ipsum dolor sit amet, consectetuer adipiscin
 date: 2016-01-25
 icon:
   name: icon_lifesaver
-color: purple
+color: primary
 sections:
   - /faqs/general
   - /faqs/features
   - /faqs/pricing
   - /faqs/support
-promo:
+<!-- promo:
   title: "*&nbsp;*{: .fa .fa-heart} [AppKit - Bootstrap Angular Admin Theme for Developers](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)"
   link: https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm
   image:
@@ -31,5 +31,5 @@ promo:
       [View Demo](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm){: .btn .btn-cta}
 
       {: .author}
-      [Xiaoying Riley](http://themes.3rdwavemedia.com)
+      [Xiaoying Riley](http://themes.3rdwavemedia.com) -->
 ---

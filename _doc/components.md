@@ -9,7 +9,7 @@ sections:
   - /components/dashboards
   - /components/app_components
   - /components/ui_components
-promo:
+<!-- promo:
   title: "*&nbsp;*{: .fa .fa-heart} [AppKit - Bootstrap Angular Admin Theme for Developers](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)"
   link: https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm
   image:
@@ -30,5 +30,5 @@ promo:
       [View Demo](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm){: .btn .btn-cta}
 
       {: .author}
-      [Xiaoying Riley](http://themes.3rdwavemedia.com)
+      [Xiaoying Riley](http://themes.3rdwavemedia.com) -->
 ---

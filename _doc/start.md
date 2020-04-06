@@ -15,7 +15,7 @@ sections:
   - /start/buttons
   - /start/video
   - /start/icons
-promo:
+<!-- promo:
   title: "*&nbsp;*{: .fa .fa-heart} [AppKit - Bootstrap Angular Admin Theme for Developers](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)"
   link: https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm
   image:
@@ -34,5 +34,5 @@ promo:
       If your project is Open Source, you can use this area to promote your other projects or hold third party adverts like Bootstrap and FontAwesome do!
 
       {: .author}
-      [Xiaoying Riley](http://themes.3rdwavemedia.com)
+      [Xiaoying Riley](http://themes.3rdwavemedia.com) -->
 ---

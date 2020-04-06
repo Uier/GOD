@@ -2,14 +2,14 @@
 # Site settings
 #
 remote_theme: LeakyAbstractions/pretty-docs
-url: https://leakyabstractions.github.io
-baseurl: /pretty-docs
-title: &site_title Pretty Docs
-description: &site_description Free Bootstrap theme for your project documentation
+url: https://uier.github.io
+baseurl: /god
+title: &site_title GOD Docs
+description: &site_description
 branding:
   icon:
     name: icon_documents_alt
-  highlight: Pretty
+  highlight: GOD
   bold: Docs
 markdown: kramdown
 kramdown:
@@ -37,33 +37,33 @@ owner:
 #
 # Social
 #
-open_graph:
-  title: *site_title
-  site_name: *site_title
-  description: *site_description
-  locale: en_US
-  image: /assets/images/thumb.png
-twitter_cards:
-  title: *site_title
-  description: *site_description
-  creator: *site_owner_twitter
-  card: summary_large_image
-  image: /assets/images/thumb.png
-share:
-  facebook:
-    class: fb-like
-    action: like
-    layout: button_count
-    show-faces: false
-    share: false
-  twitter:
-    via: *site_owner_twitter
-    text: &site_description
-    title: Tweet
-  github:
-    repo: LeakyAbstractions/pretty-docs
-    position: right
-    color: red
+# open_graph:
+  # title: *site_title
+  # site_name: *site_title
+#   description: *site_description
+#   locale: en_US
+#   image: /assets/images/thumb.png
+# twitter_cards:
+#   title: *site_title
+#   description: *site_description
+#   creator: *site_owner_twitter
+#   card: summary_large_image
+#   image: /assets/images/thumb.png
+# share:
+#   facebook:
+#     class: fb-like
+#     action: like
+#     layout: button_count
+#     show-faces: false
+#     share: false
+#   twitter:
+#     via: *site_owner_twitter
+#     text: &site_description
+#     title: Tweet
+#   github:
+#     repo: LeakyAbstractions/pretty-docs
+#     position: right
+#     color: red
 
 
 # Google Analytics
