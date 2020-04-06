@@ -96,3 +96,5 @@ defaults:
       type: pages
     values:
       layout: doc
+
+theme: jekyll-theme-cayman
