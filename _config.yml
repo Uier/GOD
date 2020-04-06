@@ -3,7 +3,7 @@
 #
 remote_theme: LeakyAbstractions/pretty-docs
 url: https://uier.github.io
-baseurl: /god
+baseurl: /GOD
 title: &site_title GOD Docs
 description: &site_description
 branding:
@@ -33,6 +33,7 @@ owner:
     notice: Lorem Ipsum
     author: "[Guillermo Calvo](https://guillermo.in/)"
 
+github: [metadata]
 
 #
 # Social
