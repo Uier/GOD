@@ -2,31 +2,22 @@
 layout: home
 title: Home
 tagline: |
-  The best library to support you beat others in Game of Drone.
-
-  Actully Useful.
-  <!-- Free Bootstrap theme for your project documentation -->
-  <!-- Designed with *&nbsp;*{: .fa .fa-heart} for developers -->
-  <!-- Ready to use in *&nbsp;*{: .fa .fa-github} Github Pages -->
+  Developer friendly library, easy to get started with.
+  
+  Make you happy in Game of Drone.
 heading: Getting started is easy!
 navigation:
   - /start
   - /components
   - /faqs
 ---
-<!--   - /charts
-  - /showcase
-  - /credits
-  - /news
-  - /community
-  - /legal -->
 
-Welcome! Download the library and view our demo above.
+歡迎！請下載我們的類別庫或到 Github 給我們星星！
 
 <div class="cta-container">
 
-[*&nbsp;*{: .fa .fa-cloud-download} Download Now][ARCHIEVE]{: .btn .btn-green .btn-primary .btn-cta}
-[*&nbsp;*{: .fa .fa-github} View on GitHub][GITHUB]{: .btn .btn-purple .btn-primary .btn-cta}
+[*&nbsp;*{: .fa .fa-cloud-download} 現在下載][ARCHIEVE]{: .btn .btn-green .btn-primary .btn-cta}
+[*&nbsp;*{: .fa .fa-github} 造訪專案][GITHUB]{: .btn .btn-purple .btn-primary .btn-cta}
 
 </div>
 

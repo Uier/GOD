@@ -1,67 +1,32 @@
 ---
-title: Installation
+title: 使用方式
 sections:
-  - Step One
-  - Step Two
-  - Step Three
+  - 寫扣
+  - 編譯
+  - 打包
+  - 提交
 ---
 
-### Step One
+### 一、寫扣
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+將你的 Game of Drone 程式撰寫於 `main.cpp`
 
+### 二、編譯
 
-###### Default code example:
-
-```shell
-bower install <package>
-```
+編譯所有檔案
 
 ```shell
-npm install <package>
+make
 ```
 
+### 三、打包
 
-### Step Two
+打包檔案
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+```shell
+make happy
+```
 
-<div class="row">
- <div class="col-md-6 col-sm-6 col-xs-12">
+### 快樂提交
 
-###### Un-ordered list example
-
-{: .list}
-- Lorem ipsum dolor sit amet.
-- Aliquam tincidunt mauris.
-- Ultricies eget vel aliquam libero.
-  - Turpis pulvinar
-  - Feugiat scelerisque
-  - Ut tincidunt
-- Pellentesque habitant morbi.
-- Praesent dapibus, neque id.
-	
- </div>
- <div class="col-md-6 col-sm-6 col-xs-12">
-
-###### Ordered list example
-
-{: .list}
-1. Lorem ipsum dolor sit amet.
-2. Aliquam tincidunt mauris.
-3. Ultricies eget vel aliquam libero.
-  - Turpis pulvinar
-  - Feugiat scelerisque
-  - Ut tincidunt
-4. Pellentesque habitant morbi.
-5. Praesent dapibus, neque id.
-
- </div>
-</div>
-
-
-### Step Three
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+將 `happy.cpp` 內的程式碼全選複製到 CodinGame 提交

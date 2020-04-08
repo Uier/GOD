@@ -1,7 +1,7 @@
 ---
-title: Quick Start
-excerpt: Demo example, consectetuer adipiscing elit
-date: 2016-01-25
+title: 快速上手
+excerpt: 簡單三步驟來開始使用 HappyGOD 類別庫
+date: 2020-04-08
 icon:
   type: fa
   name: fa-paper-plane
@@ -9,12 +9,14 @@ color: green
 sections:
   - /start/download
   - /start/installation
-  - /start/code
+---
+
+<!-- - /start/code
   - /start/callouts
   - /start/tables
   - /start/buttons
   - /start/video
-  - /start/icons
+  - /start/icons -->
 <!-- promo:
   title: "*&nbsp;*{: .fa .fa-heart} [AppKit - Bootstrap Angular Admin Theme for Developers](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)"
   link: https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm
@@ -35,4 +37,3 @@ sections:
 
       {: .author}
       [Xiaoying Riley](http://themes.3rdwavemedia.com) -->
----

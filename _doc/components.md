@@ -1,7 +1,7 @@
 ---
-title: Components
-excerpt: Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-date: 2016-01-25
+title: 函式
+excerpt: 所有函式的定義、變數及成員函式的詳細說明、豐富的範例讓你輕易理解我們的類別庫。
+date: 2020-04-08
 icon:
   name: icon_puzzle_alt
 color: pink

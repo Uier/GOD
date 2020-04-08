@@ -3,13 +3,13 @@
 #
 remote_theme: LeakyAbstractions/pretty-docs
 url: https://uier.github.io
-baseurl: /GOD
-title: &site_title GOD Docs
+baseurl: /happygod
+title: &site_title HappyGOD Docs
 description: &site_description
 branding:
   icon:
     name: icon_documents_alt
-  highlight: GOD
+  highlight: HappyGOD
   bold: Docs
 markdown: kramdown
 kramdown:
