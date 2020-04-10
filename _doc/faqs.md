@@ -7,8 +7,7 @@ icon:
 color: primary
 sections:
   - /faqs/general
-  - /faqs/features
-  - /faqs/pricing
-  - /faqs/support
-
 ---
+<!-- - /faqs/features
+- /faqs/pricing
+- /faqs/support -->
