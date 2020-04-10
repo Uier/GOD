@@ -1,7 +1,6 @@
 ---
 title: Class Game
 sections:
-  - Constructor
   - players
   - zones
   - Me
@@ -19,6 +18,9 @@ sections:
 ---
 
 # Constructor
+
+---
+
 ```cpp
 game(np, me, nd, nz)
 ```

@@ -6,6 +6,8 @@ Zone 是繼承 Coord 的類別，其中有
 
 # Member Variables
 
+---
+
 `x` 是區域的 x 座標
 
 `y` 是區域的 y 座標
@@ -13,12 +15,18 @@ Zone 是繼承 Coord 的類別，其中有
 
 # Member Functions
 
+---
+
 ##### In()
 ```cpp
 template<typename U> bool In(const U &) const
 ```
 判斷是否距離目標小於等於 100 單位
+##### 參數
+1. a target point, can be a Drone or Zone 
 
+##### 回傳值型態
+bool
 ##### Example
 判斷這個 zone 這個物件是否距離 (0, 1) 這個 Drone 小於等於 100 。
 
@@ -34,7 +42,7 @@ z.In((Drone){0, 1});
 template<typename U> int operator-(const U &) const
 ```
 
-到其他物件 (Zone, Drone) 的距離平方。
+運算子，到其他物件 (Zone, Drone) 的距離平方。
 
 ##### Example
 回傳與座標 (123, 345) 這個無人機的距離平方
@@ -46,6 +54,8 @@ int distance = d - z;
 ```
 
 # Non-member Functions
+
+---
 
 ##### *`istream & operator>>(istream &, const Game &);`*
 運算子重載用於 cin ，輸入座標 x, y
