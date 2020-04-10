@@ -88,6 +88,55 @@ Player & player(int) const
 Player &
 
 ---
+##### zone()
+```cpp
+Zone & zone(int) const
+```
+透過 ID 得到某個 `Zone` object
+##### 參數
+1. the zone's ID
+
+##### 回傳值型態
+Zone &
+
+---
+##### drones()
+```cpp
+Iter<Drone> drones(const Player &, const Zone &) const
+```
+查詢某位玩家在某個 zone 裡的所有無人機
+##### 參數
+1. the Player object
+2. the Zone object
+
+##### 回傳值型態
+Iter\<Drone\>
+
+---
+##### UpdateZones()
+```cpp
+void UpdateZones()
+```
+更新每個 zone 的佔領者，注意你需要在遊戲回合中呼叫它，請參考我們的 `main.cpp`
+##### 參數
+*none*
+
+##### 回傳值型態
+*none*
+
+---
+##### Output()
+```cpp
+void Output() const
+```
+輸出自己每臺無人機的目標位置，注意你需要在遊戲回合中呼叫它，請參考我們的 `main.cpp`
+##### 參數
+*none*
+
+##### 回傳值型態
+*none*
+
+---
 ##### Controller()
 ```cpp
 Player & Controller(const Zone &) const
@@ -100,16 +149,16 @@ Player & Controller(const Zone &) const
 Player &
 
 ---
-##### zone()
+##### Control()
 ```cpp
-Zone & zone(int) const
+int Control(const Zone &) const
 ```
-透過 ID 得到某個 `Zone` object
+查詢某個 zone 當下最少需要派遣幾架無人機才能佔領
 ##### 參數
-1. the zone's ID
+1. the Zone object
 
 ##### 回傳值型態
-Zone &
+int
 
 ---
 ##### Trace()
@@ -127,60 +176,11 @@ Zone &
 根據該無人機前進的方向，找尋夾角最小的 zone，如果沒有 zone 與前進方向夾角小於 90 度，則會回傳最近的 zone
 
 ---
-##### drones()
-```cpp
-Iter<Drone> drones(const Player &, const Zone &) const
-```
-查詢某位玩家在某個 zone 裡的所有無人機
-##### 參數
-1. the Player object
-2. the Zone object
-
-##### 回傳值型態
-Iter\<Drone\>
-
----
-##### Control()
-```cpp
-int Control(const Zone &) const
-```
-查詢某個 zone 當下最少需要派遣幾架無人機才能佔領
-##### 參數
-1. the Zone object
-
-##### 回傳值型態
-int
-
----
-##### UpdateZones()
-```cpp
-void UpdateZones()
-```
-更新每個 zone 的佔領者，注意你需要在遊戲回合中呼叫它，請參考我們的 `main.cpp`
-##### 參數
-*none*
-
-##### 回傳值型態
-*none*
-
----
 ##### SocialDistancing()
 ```cpp
 void SocialDistancing() const
 ```
 期間限定功能，讓每臺無人機維持社交距離
-##### 參數
-*none*
-
-##### 回傳值型態
-*none*
-
----
-##### Output()
-```cpp
-void Output() const
-```
-輸出自己每臺無人機的目標位置，注意你需要在遊戲回合中呼叫它，請參考我們的 `main.cpp`
 ##### 參數
 *none*
 

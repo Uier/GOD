@@ -68,5 +68,3 @@ const int id {-1};
 Player p = game.player(0);
 int id = p.id;
 ```
-
-
