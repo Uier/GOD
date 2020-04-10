@@ -14,6 +14,6 @@ title: 總覽
 | 3 | [Iter](#class-iter)     | 容器，支援任意存取 |
 | 4 | [Zone](#class-zone)     | 存取戰區資訊 |
 | 5 | [Drone](#class-drone)   | 存取無人機資訊 |
-| 6 | [Coord](#class-coord)   |  |
+| 6 | [Coord](#class-coord)   | 存座標點，Drone & Zone 繼承 Coord |
 
 </div>
