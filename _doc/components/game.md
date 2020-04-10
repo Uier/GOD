@@ -2,22 +2,20 @@
 title: Class Game
 sections:
   - Constructor
-  - Member Variables
   - players
   - zones
-  - Me()
-  - player()
-  - Controller()
-  - zone()
-  - Trace()
-  - drones()
-  - Control()
-  - UpdateZones()
-  - SocialDistancing()
-  - Output()
-  - StayHome()
-  - Sort()
-  - Member Functions
+  - Me
+  - player
+  - Controller
+  - zone
+  - Trace
+  - drones
+  - Control
+  - UpdateZones
+  - SocialDistancing
+  - Output
+  - StayHome
+  - Sort
 ---
 
 # Constructor
