@@ -5,14 +5,14 @@ sections:
   - zones
   - Me
   - player
-  - Controller
   - zone
-  - Trace
   - drones
-  - Control
   - UpdateZones
-  - SocialDistancing
   - Output
+  - Controller
+  - Control
+  - Trace
+  - SocialDistancing
   - StayHome
   - Sort
 ---
