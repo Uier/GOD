@@ -12,7 +12,7 @@ navigation:
   - /faqs
 ---
 
-歡迎！請下載我們的類別庫或到 Github 給我們星星！
+歡迎！請下載我們的類別庫或到 Github 造訪！
 
 <div class="cta-container">
 
